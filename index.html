@@ -5,41 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="./">WebStudio</a>
-            <ul>
-                <li>
-                 <a href="">Студія</a>
+            <a class="logo" href="./">Web<span>Studio</span></a>
+            <ul class="nav-list">
+                <li class="nav-item">
+                 <a class="nav-link" href="">Студія</a>
              </li>
-            <li>
-                <a href="./portfolio.html">Портфоліо</a>
+            <li class="nav-item">
+                <a class="nav-link" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li>
-                <a href="">Контакти</a>
+            <li class="nav-item">
+                <a class="nav-link" href="">Контакти</a>
             </li>
             </ul>
-            <ul>
-            <li>
-                <a href="">info@devstudio.com</a>
+            <ul class="contacts-list">
+            <li class="contacts-item">
+                <a class="contacts-link" href="">info@devstudio.com</a>
             </li>
             <li>
-                <a href="">+38 096 111 11 11</a>
+                <a class="contacts-link" href="">+38 096 111 11 11</a>
             </li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="hero">
             <h1> Ефективні рішення для вашого бізнесу</h1>
-            <button type="button">Замовити послугу</button>
+            <button class="hero-button" type="button">Замовити послугу</button>
         </section>
         <section>
             <ul>
                 
-            <h1>Переваги</h1>
+            <h2>Переваги</h2>
 
             <li>
             <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -60,13 +64,13 @@
         </ul>
         </section>
         <section>
-            <h1>Чим ми займаємося</h1>
+            <h2>Чим ми займаємося</h2>
             <img src="./images/example-1.jpg">
             <img src="./images/example-2.jpg">
             <img src="./images/example-3.jpg">
         </section>
         <section>
-            <h1>Наша команда</h1>
+            <h2>Наша команда</h2>
             <img src="./images/img (3).jpg" width="270">
             <h3>Ігор Дем'яненко</h3>
             <p>Product Designer</p>
